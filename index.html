@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/92cd18646c.js" crossorigin="anonymous"></script>
+    <title>Prabhjot Singh | Web Developer</title>
+</head>
+<body>
+    <div id="welcome">WELCOME TO MY WEBSITE</div>
+    <header>
+        <div id="header-left">   
+            <p id="logo-name">P</p>
+        </div>
+        
+        <div id="header-right">
+            <a href="#s1">About</a>
+            <a href="#s3">Projects</a>
+            <a href="#s4">Contact</a>
+            <a href="https://docs.google.com/document/d/1McnLqJ8oPo8awWx12RNWC3gu5zfAR1x0XGU-UQQgQfk/edit" id="resumeButton">My Resume
+            </a>
+         
+        </div>
+        <i id="ham"class="fas fa-bars"></i>
+    </header>
+    <section id="s1">
+        <div id="s1-wrapper">
+        <div>
+            <img id="profileImg"
+            alt="Prabhjot Singh"
+            src="https://dl.dropbox.com/s/tjdjufe1x5halag/IMG_20211213_172216_825.webp?dl=0"/>
+            <h1>Hi, I am <br/><span id="name"></span><br></h1>
+            <h3>A <span>web developer</span></h3>
+        </div>
+        <p id="about-me">  
+            i create responsive and reliable websites and passionate about
+            solving problems with my effective solutions.
+            If you are a business wanting a web presence or an employer looking
+            to hire, feel free to <a href="#" onclick="showEmail()">contact me</a><br/>
+            <a id="email" href="mailto:iprabhsingh0@gmail.com">iprabhsingh0@gmail.com</a> 
+        </p>
+        </div>
+
+        <p><a href="#s3"> <img id="down-arrow" src="https://media.giphy.com/media/Wtg8Bmgul1Qxc0otod/giphy.gif"></a></p>         
+    </section>
+    
+    </section>
+    <section id="s3">
+        <h2>
+            My Projects
+        </h2>
+
+        <div class="projects">
+        <h2>Full Stack Projects</h2>
+                <div class="container" id="full-stack">
+
+                    <div class="project-box">
+                        <div class="project-pics">
+                           <img id="interactly" alt="interactly"
+                           src=" https://dl.dropbox.com/s/fbg6evz08mm25ly/interactly.png?dl=0">
+                       </div>
+                       <div class="project-info" id="interactly-info">
+                           <h2 class="project-title">Interactly</h2><br>
+                           <div> <a href="https://interactly.herokuapp.com/">Live</a>
+                            <a href="https://github.com/prabhjot2002/TextMe">Code</a>
+                            </div>
+                           <p class="desc">Interactly is a personal social media web app on which users can chat and call to their beloved ones
+                               .I used Peerjs for real-time calling and socket.io for real-time chat.i used JWT tokens for authentication.
+                           </p>
+                       </div>
+       
+                   </div>
+    
+
+                <div class="project-box">
+                     <div class="project-pics">
+                        <img id="facechat" alt="facehchat"
+                        src="https://dl.dropbox.com/s/ehi0t6yyuqaroa1/facechat.png?dl=0">
+                    </div>
+                    <div class="project-info" id="facechat-info">
+                        <h2 class="project-title">FaceChat</h2>
+                        <div> <a href="https://facechatapp.herokuapp.com/">Live</a>
+                        <a href="https://github.com/prabhjot2002/Facechat">Code</a>
+                        </div>
+                        <p class="desc">Facechat is a social media app on which users can post their pictures and their thoughts to share
+                             them with the whole world.This was my term project and my first ejs project with backend.
+                        </p>
+                    </div>
+    
+                </div>
+
+        </div>
+        </div>
+
+        <div class="projects">
+            <h2>REACT Projects</h2>
+            <div class="container">
+            <div class="project-box">
+                <div class="project-pics">
+                    <img id="musicplay" alt="Musicplay"
+                        src="https://dl.dropbox.com/s/b8ol1m6njxr9osh/musicplay.png?dl=0">
+                    </div>
+
+                <div class="project-info" id="musicplay-info">
+                    <h2 class="project-title">Musicplay</h2><br>
+                    <div> <a href="https://prabhjot2002.github.io/musicplay/">Live</a>
+                        <a href="https://github.com/prabhjot2002/musicplay">Code</a>
+                        </div>
+                    <p class="desc">An online music player to play any song by search.It is using the Deezer API.</p>
+                </div>         
+                
+            </div>
+
+           
+            <div class="project-box">
+                <div class="project-pics">
+                    <img id="youtube" alt="youtube1"
+                    src="https://dl.dropbox.com/s/mwryiriqllidzd4/youtube1.png?dl=0">
+                </div>
+                <div class="project-info" id="youtube-info">
+                    <h2 class="project-title">Youtube-clone</h2><br>
+                    <div> <a href="https://prabhjot2002.github.io/youtube-clone/">Live</a>
+                        <a href="https://github.com/prabhjot2002/youtube-clone">Code</a>
+                        </div>
+                    <p class="desc">An youtube clone with React. It is using the Youtube API to search for videos.</p>
+                </div>      
+               
+            </div>
+    
+            <div class="project-box">
+                <div class="project-pics">
+                    <img id="weather" alt="weather1"
+            src="https://dl.dropbox.com/s/8xojrpbt9owusk1/weather1.png?dl=0">
+                </div>
+                <div class="project-info" id="weather-info">
+                    <h2 class="project-title">Weather App</h2><br>
+                    <div> <a href="https://prabhjot2002.github.io/weatherApp">Live</a>
+                        <a href="https://github.com/prabhjot2002/weatherApp">Code</a>
+                        </div>
+                    <p class="desc">Check the weather conditions in your area with this app. I am using Accuweather API.</p>
+                </div>
+                  
+               
+            </div>
+        </div>
+        </div>
+
+
+    <div class="projects">
+
+            <h2>HTML CSS JS Projects</h2>
+            <div class="container" id="html-projects">
+               
+            <div class="project-box">
+                <div class="project-pics">
+                    <img id="talkie" alt="talkie"
+                    src="https://dl.dropbox.com/s/cejhr3jh19di1qp/talkie.png?dl=0">
+                </div>
+                <div class="project-info" id="talkie-info">
+                    <h2 class="project-title">Talkie</h2><br>
+                    <div> <a href="https://prabhjot2002.github.io/talkie">Live</a>
+                        <a href="https://github.com/prabhjot2002/talkie">Code</a>
+                        </div>
+                    <p class="desc">A smartphone branding website Talkie with just HTML and CSS.</p>
+                </div>
+                
+               
+            </div>
+
+    
+        <div class="project-box">
+            <div class="project-pics">
+                <img id="foodieman" alt="foodie1"
+                src="https://dl.dropbox.com/s/08xn8rbaawuj4mr/foodie1.png?dl=0">
+            </div>
+            <div class="project-info" id="foodieman-info">
+                <h2 class="project-title">FoodieMan</h2><br>
+                <div> <a href="https://prabhjot2002.github.io/foodieman">Live</a>
+                    <a href="https://github.com/prabhjot2002/foodieman">Code</a>
+                    </div>
+                <p class="desc">A restaurant website to see their menu and prices.</p>
+            </div>   
+           
+
+        </div>
+    </div>
+    </div>
+
+        
+       
+
+   
+ 
+ 
+    </section>
+
+    <section id="s4">
+        <h1>Certifications</h1>
+        <div id="s4-inner">
+           <img id="img1" alt="cert1" src="/CERTIFICATE OF INTERNSHIP-1.png"/>
+           <img id="img2" alt="cert2" src="/CERTIFICATE OF TRAINING ON SOFTWARE DEVELOPMENT (1)-1.png"/>
+
+        </div>
+    </section>
+    <section id="s5">
+        <p>I'm available for work<br>
+        Get in <a  style="text-decoration: underline;cursor:pointer;"
+        onClick="showEmail2()">touch with me</a>
+       </p> 
+    </section>
+    <h2 id="email2"> <input id="my-email"
+        value="iprabhsingh0@gmail.com"
+        disabled/>
+        <i onClick="copyText()"
+        class="far fa-copy"> </i></h2> 
+    <footer>
+       <div id="social-media-links">
+        <a href="https://www.linkedin.com/in/prabhsingh02/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/Prabhjo10323149"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/prabhjot2002"><i class="fab fa-github"></i></a>
+       </div>
+       <div id="footer-logo">    
+        <p id="logo-name">P</p>
+        </div>
+       <p id="name">Prabhjot Singh</p>
+      
+    </footer>
+</div>
+
+    <script>
+        // code for displaying hamburger menu on mobile devices
+        const ham = document.getElementById("ham");
+        const nav = document.getElementById("header-right");
+        ham.addEventListener('click',()=>{
+            if(nav.style.display=="flex"){
+                ham.classList.remove("fa-times");
+                nav.style.display="none";
+            }else{
+                nav.style.display="flex";
+                ham.classList.add("fa-times");
+            }
+        })
+
+        // code for loader
+        const welcome = document.getElementById("welcome");
+            setTimeout(()=>{
+            welcome.style.display="none";
+            },1000)
+
+
+        // showing contact info(email)
+        const showEmail=()=>{
+            document.getElementById('email').style.opacity=1
+        }
+        const showEmail2=()=>{
+            document.getElementById('email2').style.display="block"
+        }
+
+        //for typewriting effect
+        const elm = document.getElementById('name');
+        const name = 'PRABHJOT SINGH'
+        let i=0
+
+        const typeLetter=()=>{
+            if(i<name.length){
+            elm.innerHTML+=name.charAt(i)
+            i++
+            setTimeout(typeLetter,100)
+            }
+        }
+        setTimeout(typeLetter,1000)
+
+        //adding delay in down-arrow so that it renders after rendering aboutme paragraph
+        setTimeout(()=>{
+            document.getElementById('down-arrow').style.opacity=1
+        },3000)
+
+        //copyText
+        const copyText=()=>{
+            const text = document.getElementById('my-email')
+            text.select()
+            text.setSelectionRange(0,99999)
+            navigator.clipboard.writeText(text.value)
+            document.querySelector('#email2').innerHTML+="email copied!"
+        }
+
+        //appearing divs with scrolling
+        const projectBoxes = document.querySelectorAll('.project-box')
+        window.addEventListener('scroll',()=>{
+            projectBoxes.forEach(p=>{
+                if(p.offsetTop-window.scrollY<600){
+                    p.classList.add('projectboxrender')
+                }
+            })
+        })
+        
+    </script>
+
+</body>
+</html>
